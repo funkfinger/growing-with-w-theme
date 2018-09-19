@@ -12,4 +12,4 @@ else
   exit 1
 fi
 
-gem build vigor-cms-theme.gemspec
+gem build growing-with-w-theme.gemspec

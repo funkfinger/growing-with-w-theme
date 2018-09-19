@@ -1,4 +1,4 @@
-title: Your awesome title
+title: Growing With W
 author: GitHub User
 email: your-email@domain.com
 description: > # this means to ignore newlines until "twitter_username:"
@@ -7,31 +7,15 @@ description: > # this means to ignore newlines until "twitter_username:"
   Google search results) and in your feed.xml site description.
 
 # social links
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: crackinggood
+github_username:  crackinggood
 rss: rss
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jekyll
-# linkedin_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# googleplus_username: +jekyll
-
-# Mastodon instances
-# mastodon:
-# - username: jekyll
-#   instance: example.com
-# - username: jekyll2
-#   instance: example.com
-
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
-# vigor-cms-theme date format
+# growing-with-w-theme date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-vigor-cms-theme:
+growing-with-w-theme:
   date_format: "%b %-d, %Y"
 
 # If you want to link only specific pages in your header, uncomment
@@ -40,7 +24,7 @@ vigor-cms-theme:
 # - about.md
 
 # Build settings
-theme: vigor-cms-theme
+theme: growing-with-w-theme
 
 plugins:
  - jekyll-feed

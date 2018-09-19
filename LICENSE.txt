@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2018-present Vigor.
+Copyright (c) 2018-present Carrie Wheeler.
 
 Theme based on minima which is Copyright (c) 2016-present Parker Moore and
 the minima contributors.

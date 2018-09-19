@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "vigor-cms-theme"
-  spec.version       = "0.0.8"
-  spec.authors       = ["Vigor"]
-  spec.email         = ["coach@liveinvigor.com"]
+  spec.name          = "growing-with-w-theme"
+  spec.version       = "0.0.1"
+  spec.authors       = ["Jay Wiggins"]
+  spec.email         = ["jay@irk.com"]
 
-  spec.summary       = "Vigor CMS Jekyll theme"
-  spec.homepage      = "https://github.com/funkfinger/vigor-cms-theme"
+  spec.summary       = "Growing With W Jekyll theme"
+  spec.homepage      = "https://github.com/funkfinger/growing-with-w-theme"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
@@ -18,9 +18,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "jekyll", "~> 3.5"
   spec.add_runtime_dependency "jekyll-feed", "~> 0.9"
-  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.1"
   spec.add_runtime_dependency "bootstrap", "~> 4.0.0"
   spec.add_runtime_dependency 'jekyll_pages_api_search'
-  # spec.add_runtime_dependency "bootswatch"
   spec.add_development_dependency "bundler", "~> 1.15"
 end
