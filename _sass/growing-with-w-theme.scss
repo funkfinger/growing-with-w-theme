@@ -29,6 +29,11 @@ $headings-font-family: 'Playfair Display', -apple-system, system-ui, BlinkMacSys
   padding-bottom: 20px;
 }
 
+li.media {
+  padding-top: .5em;
+  padding-bottom: 1em;
+}
+
 @media (min-width: 576px) {
   body {
     padding-top: 120px;
@@ -37,9 +42,12 @@ $headings-font-family: 'Playfair Display', -apple-system, system-ui, BlinkMacSys
     width: 100%;
     padding-bottom: 20px;
   }
+  .media.border-bottom {
+    border: none;
+  }
 }
 
-.sidebar a {
+.sidebar a, .media a {
   color: $body-color;
 } 
 

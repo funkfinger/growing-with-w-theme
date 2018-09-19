@@ -7,13 +7,13 @@ layout: default
   <!-- <h2>{{ page.list_title | default: "Posts" }}</h2> -->
   <ul class="list-unstyled">
     {%- for post in site.posts -%}
-    <li class="media">
+    <li class="media border-bottom">
       <div class="media-body">
-        <h5 class="mt-0 mb-1">
+        <h3 class="mt-0 mb-1">
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-        </h5>
+        </h3>
         {{ post.excerpt }}
       </div>
     </li>
