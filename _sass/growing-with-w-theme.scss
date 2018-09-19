@@ -1,13 +1,16 @@
 
-@import "bootswatch-yeti/variables";
+// @import "bootswatch-yeti/variables";
+$web-font-path: "https://fonts.googleapis.com/css?family=Playfair+Display" !default;
+@import url($web-font-path);
+
+// $font-family-sans-serif: 'Playfair Display', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$headings-font-family: 'Playfair Display', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+
 @import "bootstrap";
-@import "bootswatch-yeti/bootswatch";
+
+// @import "bootswatch-yeti/bootswatch";
 
 @import "jekyll_pages_api_search";
-
-body {
-  padding-top: 120px
-}
 
 .footer {
   width: 100%;
@@ -17,5 +20,37 @@ body {
 }
 
 .navbar-brand {
-  font-size: 3em;
+}
+
+.site-logo {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+  body {
+    padding-top: 120px;
+  }
+  .site-logo {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+}
+
+.sidebar a {
+  color: $body-color;
+}
+
+.sidebar a:hover {
+  text-decoration: none;
+}
+
+.sidebar a:active {
+  text-decoration: none;
+}
+
+.post-img {
+  width: 100%;
 }

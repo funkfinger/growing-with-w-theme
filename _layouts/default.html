@@ -5,13 +5,20 @@
 
   <body>
 
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="container wrapper">
-        {{ content }}
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            {%- include sidebar.html -%}
+          </div>
+          <div class="col">
+            <main class="page-content" aria-label="Content">
+              {{ content }}
+            </main>
+          </div>
+        </div>        
       </div>
-    </main>
+    </div>
 
     {%- include footer.html -%}
 
