@@ -7,15 +7,15 @@ layout: default
   <!-- <h2>{{ page.list_title | default: "Posts" }}</h2> -->
   <ul class="list-unstyled">
     {%- for post in site.posts -%}
-    <li class="media border-bottom">
-      <div class="media-body">
-        <h3 class="mt-0 mb-1">
-          <a class="post-link" href="{{ post.url | relative_url }}">
+    <li class="media border-bottom hover-zoom">
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        <div class="media-body">
+          <h3 class="mt-0 mb-1">
             {{ post.title | escape }}
-          </a>
-        </h3>
-        {{ post.excerpt }}
-      </div>
+          </h3>
+          {{ post.excerpt }}
+        </div>
+      </a>
     </li>
     {%- endfor -%}
   </ul>

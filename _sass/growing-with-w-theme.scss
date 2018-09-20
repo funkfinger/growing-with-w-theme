@@ -62,3 +62,15 @@ li.media {
 .post-img {
   width: 100%;
 }
+
+.hover-zoom {
+  transition: transform .1s;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.05);
+}
+
+.hover-zoom a:hover {
+  text-decoration: none;
+}
