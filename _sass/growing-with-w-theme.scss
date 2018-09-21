@@ -6,6 +6,10 @@ $web-font-path: "ttps://fonts.googleapis.com/css?family=Encode+Sans+Condensed" !
 // $font-family-sans-serif: 'Playfair Display', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
 $headings-font-family: 'Encode Sans Condensed', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
 
+// $body-color: #555;
+// $secondary: #666734;
+
+$secondary: #CCC;
 $body-color: #555;
 
 @import "bootstrap";
@@ -13,6 +17,11 @@ $body-color: #555;
 // @import "bootswatch-yeti/bootswatch";
 
 @import "jekyll_pages_api_search";
+
+h1, h2, h3, h4, h5, h6 {
+  // color: #666734;
+  color: #afa344;
+}
 
 .footer {
   width: 100%;
