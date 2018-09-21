@@ -1,10 +1,12 @@
 
 // @import "bootswatch-yeti/variables";
-$web-font-path: "https://fonts.googleapis.com/css?family=Playfair+Display" !default;
+$web-font-path: "ttps://fonts.googleapis.com/css?family=Encode+Sans+Condensed" !default;
 @import url($web-font-path);
 
 // $font-family-sans-serif: 'Playfair Display', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
-$headings-font-family: 'Playfair Display', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$headings-font-family: 'Encode Sans Condensed', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+
+$body-color: #555;
 
 @import "bootstrap";
 
@@ -17,9 +19,6 @@ $headings-font-family: 'Playfair Display', -apple-system, system-ui, BlinkMacSys
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
   margin-top: 70px;
-}
-
-.navbar-brand {
 }
 
 .site-logo {
@@ -73,4 +72,20 @@ li.media {
 
 .hover-zoom a:hover {
   text-decoration: none;
+}
+
+.post-link {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.post-list-item a:hover, .post-list-item a {
+  text-decoration: none;
+  color: $body-color;
+}
+
+.post-list-item {
+  padding: 1em;
 }

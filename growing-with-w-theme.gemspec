@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "growing-with-w-theme"
-  spec.version       = "0.0.3"
+  spec.version       = "0.0.4"
   spec.authors       = ["Jay Wiggins"]
   spec.email         = ["jay@irk.com"]
 

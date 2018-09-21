@@ -2,24 +2,25 @@
 layout: default
 ---
 {{ content }}
-<div class="container home">
-  {%- if site.posts.size > 0 -%}
-  <!-- <h2>{{ page.list_title | default: "Posts" }}</h2> -->
-  <ul class="list-unstyled">
-    {%- for post in site.posts -%}
-    <li class="media border-bottom hover-zoom">
+
+<div class="container">
+{%- if site.posts.size > 0 -%}
+<ul class="post-list list-unstyled">
+  {%- for post in site.posts -%}
+  <li class="post-list-item border-bottom hover-zoom">
       <a class="post-link" href="{{ post.url | relative_url }}">
-        <div class="media-body">
-          <h3 class="mt-0 mb-1">
-            {{ post.title | escape }}
-          </h3>
-          {{ post.excerpt }}
+        <div class="media">
+          <div class="media-body">
+            <h3 class="mt-0 mb-1">{{ post.title | escape }}</h3>
+            {{ post.excerpt | strip_html }}
+          </div>
+          {%- if post.thumbnail.size > 0 -%}
+          <img class="mr-3" src="{{ post.thumbnail }}" alt="Generic placeholder image">
+          {%- endif -%}
         </div>
       </a>
-    </li>
-    {%- endfor -%}
-  </ul>
-  {%- endif -%}
+  </li>
+  {%- endfor -%}
+</ul>
+{%- endif -%}
 </div>
-
-
