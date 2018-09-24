@@ -13,7 +13,7 @@ layout: default
           <div class="media-body">
             <h2 class="mt-0 mb-1">{{ post.title | escape }}
               {%- if post.category -%}
-              &nbsp;&nbsp;<small><span class="badge badge-secondary">{{ post.category }}</span></small>
+              &nbsp;&nbsp;<small><small><span class="badge badge-secondary text-light">{{ post.category }}</span></small></small>
               {%- endif -%}
             </h2>
             {{ post.excerpt | strip_html }}
